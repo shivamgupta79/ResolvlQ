@@ -1,0 +1,26 @@
+{
+  "name": "fixflow-ai-client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.7.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3",
+    "vite": "^6.0.7"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.7",
+    "axios-mock-adapter": "^2.1.0",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.7"
+  }
+}
